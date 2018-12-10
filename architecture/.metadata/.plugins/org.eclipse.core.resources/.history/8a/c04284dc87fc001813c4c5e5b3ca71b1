@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Uk_4cPyGEeiz0fzQKHDhQQ" name="ddd">
+  <packagedElement xmi:type="uml:Class" xmi:id="_m0STYPyGEeiz0fzQKHDhQQ" name="Physical Object" visibility="public">
+    <ownedComment xmi:id="_u1eioPyGEeiz0fzQKHDhQQ" annotatedElement="_m0STYPyGEeiz0fzQKHDhQQ">
+      <body>Represent all objects that consits of matter and can be touched by an human.</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FGUugPyHEeiz0fzQKHDhQQ" name="Wall" visibility="public">
+    <ownedComment xmi:id="_Jan1QPyHEeiz0fzQKHDhQQ" annotatedElement="_FGUugPyHEeiz0fzQKHDhQQ">
+      <body>Represents a wall of the arena</body>
+    </ownedComment>
+    <generalization xmi:id="_KTYCMPyHEeiz0fzQKHDhQQ" general="_m0STYPyGEeiz0fzQKHDhQQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Nkra4PyHEeiz0fzQKHDhQQ" name="Ramp" visibility="public">
+    <generalization xmi:id="_ThySgPyHEeiz0fzQKHDhQQ" general="_m0STYPyGEeiz0fzQKHDhQQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VHUF4PyHEeiz0fzQKHDhQQ" name="Robot" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YypIIPyHEeiz0fzQKHDhQQ" name="Physical Device" visibility="public">
+    <ownedComment xmi:id="_kqHFYPyHEeiz0fzQKHDhQQ" annotatedElement="_YypIIPyHEeiz0fzQKHDhQQ">
+      <body>Represents all device that are mounted on or inside ther robot and is touchedable by an human. For example a battery or motor drive is such of device.</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mx21APyHEeiz0fzQKHDhQQ" name="Motor Drive" visibility="public">
+    <ownedComment xmi:id="_t0tMsPyHEeiz0fzQKHDhQQ" annotatedElement="_mx21APyHEeiz0fzQKHDhQQ">
+      <body>Drive the motors of the robot.</body>
+    </ownedComment>
+  </packagedElement>
+</uml:Model>
